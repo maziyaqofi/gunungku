@@ -399,6 +399,67 @@ ul {
     color: var(--text-light);
 }
 
+/* Compact Visi Misi */
+.vm-compact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 20px 0;
+    font-size: 0.9em;
+}
+
+.vm-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-left: 3px solid #FFD700;
+    width: 480px;  /* Lebar tetap */
+    height: 220px; /* Tinggi tetap */
+    overflow: auto; /* Untuk konten yang overflow */
+}
+
+.vm-card h3 {
+    color: #2E2F28;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.vision-text {
+    font-style: italic;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: 10px;
+    border-left: 2px dotted #FFD700;
+}
+
+.mission-list {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.mission-list li {
+    margin-bottom: 8px;
+    position: relative;
+    list-style-type: none;
+}
+
+.mission-list li::before {
+    content: "•";
+    color: #FFD700;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .vm-compact {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /* ===== SERVICES SECTION ===== */
 .services {
