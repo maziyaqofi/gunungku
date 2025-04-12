@@ -3,209 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gunungku</title>
+    <meta name="description" content="Gunungku - Platform pemesanan tiket pendakian gunung online terbaik di Indonesia">
+    <meta name="keywords" content="pendakian, gunung, tiket pendakian, booking gunung, open trip">
+    <title>Gunungku - Tiket Pendakian Gunung Online</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- GTeam | March 2025 -->
 </head>
 <body>
     <!-- NAVBAR -->
     <header class="navbar">
         <div class="container">
-            <img src="img/logo.png" alt="Gunungku" class="logo">
+            <a href="#beranda" class="logo-link">
+                <img src="img/logo.png" alt="Gunungku" class="logo">
+            </a>
             <nav>
-                <ul>
-                    <li><a href="#beranda" class="nav-link">Beranda</a></li>
+                <ul class="nav-list">
+                    <li><a href="#beranda" class="nav-link active">Beranda</a></li>
                     <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
                     <li><a href="#layanan" class="nav-link">Layanan</a></li>
+                    <li><a href="#faq" class="nav-link">FAQ</a></li>
                     <li><a href="#kontak" class="nav-link">Kontak</a></li>
+                    <li><a href="#" class="nav-btn" style="color: #2E2F28;">Download App</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" id="beranda">
-        <div class="hero-content">
-            <h1>Selamat Datang di <span>Gunungku</span></h1>
-            <p>Platform digital terbaik untuk booking tiket pendakian gunung di Indonesia.</p>
-            <a href="#" class="btn">Unduh App</a>
-
-            <div class="social-buttons">
-                <a href="#" class="twitter">Twitter</a>
-                <a href="#" class="instagram">Instagram</a>
-                <a href="#" class="tiktok">Tiktok</a>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>Nikmati Pendakian Gunung dengan Mudah Bersama <span>Gunungku</span></h1>
+            <p class="hero-subtitle">Platform digital terbaik untuk booking tiket pendakian gunung di Indonesia. Pesan tiket, cari teman pendakian, dan dapatkan informasi lengkap gunung di Indonesia, semuanya dalam satu aplikasi.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-secondary">Unduh Sekarang</a>
+            </div>
+            
+            <div class="download-badges">
+                <a href="#" class="download-badge">
+                    <img src="img/google-play-badge.png" alt="Download on Google Play">
+                </a>
+                <a href="#" class="download-badge">
+                    <img src="img/app-store-badge.png" alt="Download on App Store">
+                </a>
             </div>
         </div>
     </section>
 
     <!-- Tentang Gunungku -->
     <section class="about" id="tentang">
-        <div class="container about-container">
-            <div class="about-image">
-                <img src="img/foto1.jpeg" alt="Tentang Gunungku">
-            </div>
-            <div class="about-text">
-                <h2>Tentang Gunungku</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, nam! Nesciunt cupiditate nam aliquam minus maxime! Sequi itaque, odio repellat vel rem cumque sed dignissimos. Eveniet at debitis quo commodi!
-                Ex, aliquid impedit magnam eius inventore tenetur explicabo? Ut minima provident magnam rem suscipit quae repudiandae voluptatum soluta neque, expedita voluptate? Aut reiciendis, facere quod necessitatibus eius ipsam minus impedit?
-                Blanditiis tempora corporis tenetur sapiente quos quidem dolorum dolore aut eius illum pariatur ab officia incidunt voluptate unde, consequatur est nisi? Voluptatem similique error dolore molestiae, unde accusamus nostrum nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab repellat ad tempore dolorum maxime officiis fugiat, inventore sint assumenda optio earum excepturi id quibusdam magni temporibus, ipsam quaerat quia quae.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Statistik -->
-    <section class="stats">
-        <div class="container stats-container">
-            <div class="stat-box">
-                <h3>629</h3>
-                <p>Gunung Indonesia</p>
-            </div>
-            <div class="stat-box">
-                <h3>125</h3>
-                <p>Komunitas</p>
-            </div>
-            <div class="stat-box">
-                <h3>8</h3>
-                <p>Open Trip</p>
-            </div>
-            <div class="stat-box">
-                <h3>4</h3>
-                <p>Pendakian</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- VISI Gunungku -->
-    <section class="vision">
         <div class="container">
-            <div class="vision-box">
-                <h2>VISI Gunungku</h2>
-                <p>“Menjadi platform digital terdepan dalam ekosistem pendakian gunung di Indonesia dengan menghubungkan pendaki, pengelola wisata, dan komunitas pecinta alam dalam satu solusi terpadu, guna menciptakan pengalaman pendakian yang aman, nyaman, dan berkelanjutan.”</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2>Tentang Gunungku</h2>
+                        <p>Platform digital untuk pendakian gunung yang aman dan nyaman</p>
+                    </div>
+                    <p>Gunungku adalah platform digital terdepan di Indonesia yang menghubungkan pendaki dengan pengelola wisata alam. Kami menyediakan sistem pemesanan tiket pendakian online yang terintegrasi dengan berbagai gunung di seluruh Indonesia.</p>
+                    <p>Dengan Gunungku, Anda tidak perlu lagi mengantri panjang untuk mendapatkan tiket pendakian. Semua proses dapat dilakukan secara online dengan cepat dan mudah. Kami juga menyediakan informasi lengkap tentang jalur pendakian, peraturan, dan persiapan yang diperlukan.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">629</span>
+                            <span class="stat-label">Gunung</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">125</span>
+                            <span class="stat-label">Komunitas</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Opentrip</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="img/foto1.jpeg" alt="Tentang Gunungku" loading="lazy">
+                    <div class="experience-badge">
+                        <span>Pendanaan DINUSTEK</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- MISION -->
-    <section class="mission">
-        <h2>MISI Gunungku</h2>
-        <div class="mission-list">
-            <div class="mission-item">
-                <!-- <img src="" alt=""> -->
-                <div class="mission-text">
-                    <h3>Tiket Pendakian</h3>
-                    <p>Membantu pendaki mendapatkan tiket resmi dengan mudah dan cepat.</p>
+    <!-- Fitur Unggulan -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mengapa Memilih Gunungku?</h2>
+                <p>Kami menyediakan solusi lengkap untuk kebutuhan pendakian Anda</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>Pemesanan Online</h3>
+                    <p>Pesan tiket pendakian kapan saja dan di mana saja tanpa antri</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Jalur Pendakian</h3>
+                    <p>Informasi lengkap jalur pendakian dan titik penting</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Komunitas</h3>
+                    <p>Temukan teman pendakian dan bergabung dengan komunitas</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Keamanan</h3>
+                    <p>Sistem pemantauan pendaki untuk keselamatan Anda</p>
                 </div>
             </div>
-            <div class="mission-item">
-                <!-- <img src="" alt=""> -->
-                <div class="mission-text">
-                    <h3>Booking Tiket</h3>
-                    <p>Menyediakan sistem reservasi yang terintegrasi untuk berbagai jalur pendakian.</p>
-                </div>
-            </div>
-            <!-- Tambahkan item lainnya -->
         </div>
     </section>
 
-    <!-- Layanan Gunugku -->
-    <section class="layanan" id="layanan">
-        <h2>Layanan Gunungku</h2>
-        <p>Innovative Solutions adalah perusahaan teknologi yang menyediakan solusi inovatif...</p>
+    
 
-        <div class="layanan-grid">
-            <div class="layanan-box">
-                <h3><span>01</span> Tiket Pendakian</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur</p>
+    <!-- Layanan Gunungku -->
+    <section class="services" id="layanan">
+        <div class="container">
+            <div class="section-header">
+                <h2>Layanan Kami</h2>
+                <p>Berbagai solusi untuk kebutuhan pendakian Anda</p>
             </div>
-
-            <div class="layanan-box">
-                <h3><span>02</span> Booking Tiket</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            
+            <div class="services-tabs">
+                <button class="tab-btn active" data-tab="tiket">Tiket Pendakian</button>
+                <button class="tab-btn" data-tab="opentrip">Open Trip</button>
+                <button class="tab-btn" data-tab="komunitas">Komunitas</button>
+                <button class="tab-btn" data-tab="edukasi">Edukasi</button>
             </div>
-
-            <div class="layanan-box">
-                <h3><span>06</span> Open Trip</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse molestias quidem eveniet id? </p>
+            
+            <div class="tab-content active" id="tiket">
+                <div class="service-detail">
+                    <div class="service-text">
+                        <h3>Pemesanan Tiket Pendakian Online</h3>
+                        <p>Gunungku menyediakan platform pemesanan tiket pendakian yang terintegrasi dengan berbagai gunung di Indonesia. Anda dapat memesan tiket kapan saja dan di mana saja tanpa perlu mengantri.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check-circle"></i> Pemesanan online 24 jam</li>
+                            <li><i class="fas fa-check-circle"></i> Pembayaran berbagai metode</li>
+                            <li><i class="fas fa-check-circle"></i> E-ticket langsung ke email/HP</li>
+                            <li><i class="fas fa-check-circle"></i> Notifikasi kuota pendakian</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Coba Sekarang</a>
+                    </div>
+                    <div class="service-image">
+                        <img src="img/foto1.jpeg" alt="Pemesanan Tiket" loading="lazy">
+                    </div>
+                </div>
             </div>
-
-            <div class="layanan-box">
-                <h3><span>06</span> Open Trip</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium libero aliquid quidem!</p>
+            
+            <div class="tab-content" id="opentrip">
+                <!-- Konten Open Trip -->
             </div>
+            
+            <!-- Tab lainnya -->
+        </div>
+    </section>
 
-            <div class="layanan-box layanan-gambar">
-                <img src="img/home.jpg" alt="Gambar Ilustrasi">
+    <!-- Testimonial -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Apa Kata Mereka?</h2>
+                <p>Testimonial dari pengguna Gunungku</p>
             </div>
-
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem nulla, perspiciatis ex corporis incidunt amet quis obcaecati aliquam ullam quaerat assumenda voluptas, numquam omnis. Deserunt tempora incidunt labore quasi id."</p>
+                        <div class="testimonial-author">
+                            <img src="img/umam.jpeg" alt="Andi Pratama" loading="lazy">
+                            <div class="author-info">
+                                <h4>Maziya Ats Tsaqofi</h4>
+                                <span>Pendaki Gunung Gede</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial lainnya -->
+            </div>
         </div>
     </section>
 
     <!-- FAQ -->
-    <section class="faq">
-        <h2>Pertanyaan Yang Sering Ditanyakan</h2>
-
-        <div class="faq-item">
-            <button class="faq-question">1. Bagaimana cara memesan tiket pendakian? <span>+</span></button>
-            <div class="faq-answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem cum, sint modi, officiis veritatis eius quibusdam sit quos maxime fugiat mollitia corporis consequatur illo eligendi enim ullam rerum velit earum.</div>
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Pertanyaan Umum</h2>
+                <p>Temukan jawaban untuk pertanyaan yang sering diajukan</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Bagaimana cara memesan tiket pendakian?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Anda dapat memesan tiket pendakian melalui aplikasi Gunungku atau website kami. Pilih gunung, tanggal pendakian, isi data diri, lalu lakukan pembayaran. E-ticket akan dikirim ke email dan aplikasi Anda.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Apa saja metode pembayaran yang tersedia?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Kami menerima berbagai metode pembayaran termasuk transfer bank (BCA, Mandiri, BRI, BNI), e-wallet (OVO, GoPay, Dana, LinkAja), dan minimarket (Alfamart, Indomaret).</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ lainnya -->
+            </div>
         </div>
-
-        <div class="faq-item">
-            <button class="faq-question">1. Bagaimana cara memesan tiket pendakian? <span>+</span></button>
-            <div class="faq-answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem cum, sint modi, officiis veritatis eius quibusdam sit quos maxime fugiat mollitia corporis consequatur illo eligendi enim ullam rerum velit earum.</div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question">1. Bagaimana cara memesan tiket pendakian? <span>+</span></button>
-            <div class="faq-answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem cum, sint modi, officiis veritatis eius quibusdam sit quos maxime fugiat mollitia corporis consequatur illo eligendi enim ullam rerum velit earum.</div>
-        </div>
-
-        <!-- Tambahkan pertanyaan lainnya -->
-
     </section>
 
-    <!-- Gunungku Team -->
-    <div class="team-container">
-        <h2>Team Gunungku</h2>
-        <p class="team-description">
-            Our team is made up of experienced professionals who are passionate about technology and dedicated to helping businesses succeed.
-        </p>
-        
-        <div class="team-grid">
-            <div class="team-member">
-                <img src="img/umam.jpeg" alt="Henry Schultz">
-                <h3>Henry Schultz</h3>
-                <br><p>CO Founder</p>
-            </div>
-            <div class="team-member">
-                <img src="img/umam.jpeg" alt="Hollie Mccormick">
-                <h3>Hollie Mccormick</h3>
-                <br><p>CO Founder</p>
-            </div>
-            <div class="team-member">
-                <img src="img/umam.jpeg" alt="Nataniel Webb">
-                <h3>Nataniel Webb</h3>
-                <br><p>CO Founder</p>
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Siap Memulai Pendakian?</h2>
+                <p>Download aplikasi Gunungku sekarang dan nikmati kemudahan pemesanan tiket pendakian</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary">Download App</a>
+                    <a href="#kontak" class="btn btn-outline">Hubungi Kami</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="footer-container" id="kontak">
-            <div class="footer-nav">
-                <h2>GUNUNGKu</h2>
-                <a href="#">Home</a>
-                <a href="#">Tentang</a>
-                <a href="#">Layanan</a>
-                <a href="#">Kontak</a>
+    <footer class="footer" id="kontak">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <img src="img/logo.png" alt="Gunungku" class="footer-logo">
+                    <p>Platform digital terbaik untuk booking tiket pendakian gunung di Indonesia. Pesan tiket, cari teman pendakian, dan dapatkan informasi gunung semuanya dalam satu aplikasi.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#">Pemesanan Tiket</a></li>
+                        <li><a href="#">Open Trip</a></li>
+                        <li><a href="#">Komunitas Pendaki</a></li>
+                        <li><a href="#">Edukasi Pendakian</a></li>
+                        <li><a href="#">Informasi Gunung</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Perusahaan</h3>
+                    <ul>
+                        <li><a href="#">Tentang Kami</a></li>
+                        <li><a href="#">Tim Kami</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Kebijakan Privasi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col footer-contact">
+                    <h3>Hubungi Kami</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Jl. Imam Bonjol No. 123, Semarang, Jawa Tengah</li>
+                        <li><i class="fas fa-phone-alt"></i> +62 123 4567 890</li>
+                        <li><i class="fas fa-envelope"></i> gunungku@gmail.com</li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-social">
-                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gunungku. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Syarat & Ketentuan</a>
+                    <a href="#">Kebijakan Privasi</a>
+                </div>
             </div>
         </div>
-        <p>&copy; 2025 Gunungku. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
